@@ -1,0 +1,100 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+html{
+    font-size: 16px;
+}  
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  background-color:   hsl(330, 100%, 92%);
+  font-family: "Outfit", sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}  
+ /*----------------card---------- */
+
+.card{
+    max-width: 50%;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+ /*----------------properties---------- */
+
+ul  {
+   display: flex;
+   flex-direction: column;
+   gap: 10px; 
+}
+b{
+    color: hsl(24, 5%, 18%);
+}
+h1{
+    font-family: "Young Serif", serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+ h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+hr{
+    width: 100%;
+    background-color:hsl(30, 54%, 90%);
+}
+ /*----------------Preparation---------- */
+.Preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding-left:40px ;
+}
+.Preparation h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+ /*----------------Nutrition---------- */
+
+ /*----------------list-of-nut-------- */
+
+.catig span {     
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+.catig {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.catig li {
+    display: flex;
+    justify-content: space-between;
+}
+ /*----------------media Q---------- */
+@media  (max-width:450px){
+    .card {
+        min-width: 100%;
+        border-radius: 0;
+        padding: 0px;
+    }
+    img {
+        border-radius: 0;
+    }
+    .Preparation ,.Ingredients, .Instructions ,.Nutrition {
+        padding-inline: 20px;
+    }
+    .simple{
+        padding-inline: 20px;
+    }
+}
