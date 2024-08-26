@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    min-height: 300vh;
+    min-height: 200vh;
   background-color:   hsl(330, 100%, 92%);
   font-family: "Outfit", sans-serif;
    display: flex;
